@@ -631,7 +631,14 @@ pointer-events: auto;
         margin-bottom: 16px;
 }
 
-
+.contact-label-form{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16667;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+}
 
 
 
