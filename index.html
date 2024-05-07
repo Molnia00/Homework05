@@ -476,6 +476,63 @@
             </svg>
         </button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+            <div class="modal-input-container">
+                <label for="user-name" class="contact-label-form">Name</label>
+                <input 
+                type="text" 
+                class="contact-input-form" 
+                id="user-name" 
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+                required />
+            </div>
+
+
+            <div class="modal-input-container">
+                <label for="user-tel" class="contact-label-form">Phone</label>
+                <input 
+                type="tel" 
+                class="contact-input-form" 
+                id="user-phone" 
+                name="user-phone"
+                required
+                />
+            </div>
+
+
+
+            <div class="modal-input-container">
+                <label for="user-email" class="contact-label-form">Email</label>
+                <input 
+                type="email" 
+                class="contact-input-form" 
+                name="user-email"
+                required
+                />
+            </div>
+
+
+
+
+            <div class="modal-input-container">
+                <label for="" class="contact-label-form">Comment</label>
+                <textarea name="" id="" cols="30" rows="10" class="review-message"></textarea>
+            </div>
+
+
+
+            <div class="review-checkbox-container">
+                <input type="checkbox" class="checkbox-policy" name="" />
+                <label for="" class="label-checkbox">
+                    <a href="" class="privacy-policy"></a>
+                </label>
+
+            </div>
+
+
+            <button class="reaview-send" type="submit">Send</button>
+        </form>
     </div>
 </div>
    <!-- ============ BACKDROP ============== -->
