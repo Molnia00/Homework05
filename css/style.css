@@ -632,6 +632,8 @@ pointer-events: auto;
 }
 
 .contact-label-form{
+    display: block;
+    margin-bottom: 4px;
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 12px;
