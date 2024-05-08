@@ -647,6 +647,10 @@ pointer-events: auto;
 
 }
 
+.contactk-input-container{
+    position: relative;
+}
+
 .contact-input-form{
     width: 360px;
     height: 40px;
