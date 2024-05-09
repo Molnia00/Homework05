@@ -596,11 +596,15 @@ background-color: #31d0aa;
         border-radius: 4px;
         border: none;
         background-color: #4d5ae5;
-            width: 165px;
+            min-width: 165px;
             height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 }
 .tele-sub{
     fill:#fff;
+    margin-left: 16px;
 }
 /* =========== /footer ========== */
 /* =========== /backdrop ========== */
