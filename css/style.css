@@ -688,7 +688,9 @@ pointer-events: auto;
        
     }
 
-
+.textarena{
+    margin-bottom: 16px;
+}
 
 .review-message{
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -704,6 +706,10 @@ height: 120px;
         line-height: 1.16667;
         letter-spacing: 0.04em;
         color: #8e8f99;
+}
+
+.review-checkbox-container{
+    margin-bottom: 24px;
 }
 
 .privacy-policy{
