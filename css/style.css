@@ -668,8 +668,10 @@ pointer-events: auto;
 .contact-input-form:focus{
     border-color: #4D5AE5;
 }
-.contact-icon-modal:focus{
-fill: #4D5AE5;
+
+
+.contact-icon-modal:focus {
+    fill: #4D5AE5;
 }
 
 
