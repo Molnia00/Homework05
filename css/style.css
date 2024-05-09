@@ -559,7 +559,12 @@ background-color: #31d0aa;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
-        padding-bottom: 16px;
+        margin-bottom: 16px;
+}
+
+.footer-form{
+    display: flex;
+    gap: 24px;
 }
 
 .input-email-footer{
