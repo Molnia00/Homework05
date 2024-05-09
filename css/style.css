@@ -548,6 +548,53 @@ background-color: #31d0aa;
     fill:#F4F4FD;
 }
 
+.email-footer-container{
+    padding-left: 80px;
+}
+
+.sub-para{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        padding-bottom: 16px;
+}
+
+.input-email-footer{
+    background-color: transparent;
+    border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+
+    }
+
+.btn-sub{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        border-radius: 4px;
+        border: none;
+        background-color: #4d5ae5;
+            width: 165px;
+            height: 40px;
+}
+.tele-sub{
+    fill:#fff;
+}
 /* =========== /footer ========== */
 /* =========== /backdrop ========== */
 .backdrop{
@@ -665,11 +712,6 @@ pointer-events: auto;
 }
 
 
-.contact-icon-modal:focus {
-    fill: #4D5AE5;
-}
-
-
 
 .contact-input-form{
     width: 360px;
@@ -695,6 +737,10 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
+
+
+
+
 
 .review-message{
 border: 1px solid rgba(46, 47, 66, 0.4);
@@ -729,6 +775,8 @@ font-weight: 400;
 .review-checkbox-container{
     margin-bottom: 24px;
 }
+
+
 
 .privacy-policy{
     
