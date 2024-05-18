@@ -736,6 +736,11 @@ pointer-events: auto;
        
     }
 
+
+.contact-input-form:focus + .contact-icon-modal{
+    fill: #4D5AE5;
+}
+
 .textarena{
     margin-bottom: 16px;
 }
