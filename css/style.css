@@ -851,7 +851,7 @@ border: none;
 fill:#F4F4FD;
 }
 
-.input-galochki{
+.visually-hidden{
     position:absolute;
     white-space: nowrap;
     width: 1px;
